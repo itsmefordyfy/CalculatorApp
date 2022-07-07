@@ -1,9 +1,8 @@
-import React, {useContext, useState} from 'react';
-import {Text, TouchableOpacity, View} from 'react-native';
-import ButtonNumber from '../../components/ButtonNumber';
+import React, {useContext} from 'react';
+import {Text, View} from 'react-native';
 import CalculatorControls from '../../components/CalculatorControls';
-import {removeTrailZeros} from '../../components/helpers/removeTrailZeros';
-import {convertToRoman} from '../../components/helpers/convertToRoman';
+import {removeTrailZeros} from '../../helpers/removeTrailZeros';
+import {convertToRoman} from '../../helpers/convertToRoman';
 import {GlobalContext} from '../../context/GlobalContext';
 import strings from '../../res/strings';
 import styles from './styles';

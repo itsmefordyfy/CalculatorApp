@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './styles';
-import {Text, TouchableOpacity, View} from 'react-native';
+import {Text, TouchableOpacity} from 'react-native';
 
 interface IButtonNumberProps {
   text?: string;
